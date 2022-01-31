@@ -1,0 +1,208 @@
+﻿<Window x:Class="WpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>  
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph FontSize="16" TextDecorations="Underline" FontWeight="Bold" Foreground="DarkMagenta">                    
+                    Как сделать
+                    <Hyperlink NavigateUri="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%85%D0%B8%D1%82%D0%BE">
+                        мохито
+                    </Hyperlink>
+                    в домашних условиях
+                </Paragraph>
+                <Paragraph TextIndent="10">
+                    В последние несколько лет одним из самых модных коктейлей 
+                    считается кубинский Мохито (Mojito). 
+                    Теперь чтобы насладиться его неповторимым вкусом 
+                    необязательно идти в бар. Я расскажу о технологии 
+                    приготовления Мохито в домашних условиях. 
+                    Узнав все тонкости, вы сможете сделать этот коктейль у себя на кухне.
+                </Paragraph>
+                <Paragraph>
+                    <Bold>Историческая справка</Bold>
+                </Paragraph>
+                <Paragraph TextIndent="10">
+                    Коктейль «Мохито» является усовершенствованной версией напитка «Драк», 
+                    рецепт которого придумал известный пират Ф. Дрейк. Морские разбойники 
+                    настаивали ром на лайме и мяте. Полученный напиток помогал им бороться 
+                    с инфекционными заболеваниями в морских походах.
+                    В 1942 году семейство Мартинес открыло в Гаване собственный бар La Bodeguita del Medio. 
+                    Главной изюминкой заведения стал коктейль «Мохито» 
+                    (с испанского слово mojito переводится как «немного влажный»), 
+                    который отличался от пиратского рецепта одним дополнительным 
+                    ингредиентом – газировкой (содовой). Вкусный умеренно крепкий 
+                    коктейль быстро стал популярным и распространился по всему миру, 
+                    а бар Мартинесов успешно работает до сих пор.
+                </Paragraph>
+                <Paragraph Foreground="DarkMagenta" FontWeight="Bold">
+                    Состав и пропорции:
+                </Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="*"/>                       
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontWeight="Bold">
+                                   Ингредиент 
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontWeight="Bold">
+                                    Количество
+                                </Paragraph>
+                            </TableCell>                        
+                        </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontWeight="Bold">
+                                     
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontWeight="Bold">
+                                     
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Лайм (в крайнем случае, лимон)
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    1 штука
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Белый ром
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    30 мл
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Содовая
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    60 мл
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Сахар (желательно тростниковый)
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    1 ст. ложка
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Свежая мята
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    5-6 листиков
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Лед
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    100 гр.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>                    
+                </Table>
+                <Paragraph FontWeight="Bold" Foreground="DarkMagenta">
+                    Приготовление домашнего Мохито
+                </Paragraph>
+                <List>
+                    <ListItem>
+                        <Paragraph>
+                            Разрезать лайм пополам и руками выдавить в стакан сок из одной половинки. Добавить сахар.
+                        </Paragraph>                        
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Мелко нарезать мяту и положить в стакан с соком лайма. Измельченные листики истолочь деревянной колотушкой или обычной ложкой. Для красоты можно добавить еще несколько целых листиков мяты.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Доверху наполнить стакан кубиками льда.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Добавить 30 мл рома.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Всё оставшееся в стакане пространство заполнить содовой (спрайтом).
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Подавать вместе с трубочкой.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+
+    </Grid>
+</Window>
+
+
+
+
+
+
+
+
+
+
+
